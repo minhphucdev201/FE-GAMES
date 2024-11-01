@@ -7,6 +7,208 @@ import "./HomePage.css"
 
 const HomePage = () => {
     document.body.innerHTML = `${Header()}
+    <section>
+            <div class="banner " >
+                <div class="swiper mySwiper container-fluid" id="swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../Image/Trang/Swiper/Slide1.png">
+                        </div>
+                        <div class="swiper-slide"><img src="../Image/Trang/Swiper/Slide1.png"></div>
+                        <div class="swiper-slide"><img src="../Image/Trang/Swiper/Slide1.png"></div>
+                        <div class="swiper-slide"><img src="../Image/Trang/Swiper/Slide1.png"></div>
+                        <div class="swiper-slide"><img src="../Image/Trang/Swiper/Slide1.png"></div>
+                    </div>
+                   
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <!-- <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div> -->
+                </div>
+                <div class="play__now" >
+                    <p class="play__now-link" >PLAY NOW</p>
+                 </div>
+                 <div class="collection" >
+                    <div class="collection__slideshow"  >
+                        <div #swiperRef="" class="swiper2 mySwiper" id="swiper2" style=" overflow: hidden;" >
+                            <div class="swiper-wrapper" style="margin-left: 130px;" >
+                             
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide"> 
+                                <div class="item " >
+                               <div class="item__img" > 
+                                   <img src="../Image/15.png" alt="">  </div>
+                               <div  class="item__detail row">
+                                       <div class="item__text col-6"  >
+                                           <p  class="fw-bold fs-6" style="
+           margin-bottom: 0;">UEH maze</p>
+                                           <p class="fw-lighter" style="
+           margin-bottom: 0;">UEH review</p>
+                                       </div>
+                                       <div class="item__icon col-6" >
+                                           <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                           <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                       </div>
+                               </div>
+                             </div>
+                           </div>
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide"> 
+                                <div class="item " >
+                               <div class="item__img" > 
+                                   <img src="../Image/15.png" alt="">  </div>
+                               <div  class="item__detail row">
+                                       <div class="item__text col-6"  >
+                                           <p  class="fw-bold fs-6" style="
+           margin-bottom: 0;">UEH maze</p>
+                                           <p class="fw-lighter" style="
+           margin-bottom: 0;">UEH review</p>
+                                       </div>
+                                       <div class="item__icon col-6" >
+                                           <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                           <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                       </div>
+                               </div>
+                             </div>
+                           </div>
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/15.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                              <div class="swiper-slide"> 
+                                 <div class="item " >
+                                <div class="item__img" > 
+                                    <img src="../Image/Screenshot 2024-09-23 111111.png" alt="">  </div>
+                                <div  class="item__detail row">
+                                        <div class="item__text col-6"  >
+                                            <p  class="fw-bold fs-6" style="
+            margin-bottom: 0;">UEH maze</p>
+                                            <p class="fw-lighter" style="
+            margin-bottom: 0;">UEH review</p>
+                                        </div>
+                                        <div class="item__icon col-6" >
+                                            <span><i class="fa-solid fa-play fa-2xl" style="color: #FFFFFF;margin-right: 8px;"></i></span>
+                                            <span><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i></span>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                         
+                          </div>
+                    
+                    </div>
+
+                    </div>
+                 </div>
+            </div>
+         </section>
       <section  class="container-xl" >
        <div class="section box-sidebar" >
             <div class=" row gx-5" >
